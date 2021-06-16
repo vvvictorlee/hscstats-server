@@ -1,0 +1,79 @@
+{
+  "name": "ethstats-network-server",
+  "version": "1.5.2",
+  "description": "EthStats - Server",
+  "homepage": "https://github.com/Alethio/ethstats-network-server",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Alethio/ethstats-network-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alethio/ethstats-network-server/issues"
+  },
+  "author": {
+    "name": "Adrian Sabau",
+    "email": "adrian.sabau@consensys.net",
+    "url": "https://github.com/baxy"
+  },
+  "dependencies": {
+    "@babel/polyfill": "7.4.0",
+    "dir-require": "1.0.4",
+    "lodash": "4.17.15",
+    "async": "2.6.2",
+    "ws": "6.2.1",
+    "sha1": "1.1.1",
+    "meow": "5.0.0",
+    "chalk": "2.4.2",
+    "dotenv": "7.0.0",
+    "microtime": "3.0.0",
+    "cassandra-driver": "4.0.0",
+    "primus": "7.3.2",
+    "primus-responder": "1.0.4",
+    "primus-analytics": "1.0.0",
+    "primus-emit": "1.0.0",
+    "kafka-node": "4.0.4",
+    "ioredis": "4.9.0",
+    "deepstream.io-client-js": "/Users/lisheng/Downloads/ds/deepstream.io-client-js-master",
+    "geoip-lite": "1.3.7",
+    "d3": "3.5.17",
+    "prom-client": "11.2.1",
+    "express": "4.16.4",
+    "ajv": "6.10.0",
+    "nodemailer": "6.0.0",
+    "nodemailer-mailgun-transport": "1.4.0",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.7",
+    "compare-versions": "3.4.0",
+    "@druide/rate-limiter": "1.2.7",
+    "bignumber.js": "8.1.1",
+    "pg": "7.9.0",
+    "rlp": "2.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2",
+    "@babel/register": "7.4.0",
+    "babel-plugin-add-module-exports": "1.0.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.16.0",
+    "eslint-config-xo-space": "0.21.0",
+    "eslint-plugin-babel": "5.3.0",
+    "gulp": "4.0.0",
+    "gulp-babel": "8.0.0",
+    "gulp-eslint": "5.0.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-exclude-gitignore": "1.2.0",
+    "del": "4.1.0"
+  },
+  "scripts": {
+    "start": "./bin/app.js -v",
+    "lint": "eslint ./app",
+    "lintfix": "eslint ./app --fix",
+    "gulp": "./node_modules/gulp/bin/gulp.js",
+    "prepare": "gulp prepare"
+  },
+  "engines": {
+    "node": ">=8.0"
+  }
+}

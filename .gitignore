@@ -7,6 +7,43 @@ yarn-error.log*
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Environment Vars
+.env
+
+# Cache
+.cache
+
+# Docker Volumes
+.volumes
+
+# IntelliJ IDEA
+.idea
+
+# Dist files
+dist
+
+# Client configs
+config/ClientConfigs.*.js
+!config/ClientConfigs.sample.js
+
+k8s/charts/packed
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data

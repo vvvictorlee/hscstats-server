@@ -1,0 +1,10 @@
+.git
+.idea
+dist
+docker
+grafana
+node_modules
+
+.dockerignore
+.env
+Dockerfile
